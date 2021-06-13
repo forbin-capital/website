@@ -9,9 +9,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: 'Break into Algorithmic Trading and Compete for Capital.',
   name: 'Forbin Capital',
-  subtitle: '',
+  subtitle: 'hosts quantitative trading contests and allocates to winning algorithms.',
   cta: '',
 };
 
