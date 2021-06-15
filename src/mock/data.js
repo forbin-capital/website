@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Forbin Capital', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Forbin Capital', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile-3.png',
   paragraphOne:
-    'Forbin Capital hosts quantitative trading contests and allocates to winning algorithms.',
-  paragraphTwo:
-    'Each contest includes two phases: the submission period and the live contest period. During the submission period, you can develop systems, check their performance, and make changes to them in your user area. During the live contest period, we will check the performance of the submitted systems and at the end, we will announce the winners.',
-  paragraphThree:
     'Forbin Capital is a quantitative investment management company. We combine advanced machine learning techniques with financial expertise to generate profitable trading systems.',
+  paragraphTwo:
+    'Forbin Capital hosts quantitative trading contests and allocates to winning algorithms.',
+  paragraphThree:
+    'Each contest includes two phases: the submission period and the live contest period. During the submission period, you can develop systems, check their performance, and make changes to them in your user area. During the live contest period, we will check the performance of the submitted systems and at the end, we will announce the winners.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -37,7 +37,7 @@ export const projectsData = [
     info: 'It is clean and regularized, designed to be usable right away. Obfuscated, so it can be given out for free.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/forbin-capital', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -47,7 +47,7 @@ export const projectsData = [
     info: 'Build a model using the example Python and R scripts. Everything you need to get started in one package.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/forbin-capital', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -57,7 +57,7 @@ export const projectsData = [
     info: 'Build reputation to claim your place on the leaderboard. 1 million USD paid out to data scientists.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/forbin-capital', // if no repo, the button will not show up
   },
 ];
 
