@@ -9,18 +9,21 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Break into Algorithmic Trading and Compete for Capital.',
+  title: 'Break into algorithmic trading and compete for capital',
   name: 'Forbin Capital',
-  subtitle: 'hosts quantitative trading contests and allocates to winning algorithms.',
+  subtitle: '',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'profile-3.png',
+  paragraphOne:
+    'Forbin Capital hosts quantitative trading contests and allocates to winning algorithms.',
+  paragraphTwo:
+    'Each contest includes two phases: the submission period and the live contest period. During the submission period, you can develop systems, check their performance, and make changes to them in your user area. During the live contest period, we will check the performance of the submitted systems and at the end, we will announce the winners.',
+  paragraphThree:
+    'Forbin Capital is a quantitative investment management company. We combine advanced machine learning techniques with financial expertise to generate profitable trading systems.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -28,27 +31,30 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    buttonTitle: 'Download datasets',
+    img: 'project-1.png',
+    title: 'Start with hedge fund quality data',
+    info: 'It is clean and regularized, designed to be usable right away. Obfuscated, so it can be given out for free.',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    buttonTitle: 'Clone examples',
+    img: 'project-2.png',
+    title: 'Apply machine learning to predict the stock market',
+    info: 'Build a model using the example Python and R scripts. Everything you need to get started in one package.',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    buttonTitle: 'Submit predictions',
+    img: 'project-3.png',
+    title: 'Submit your predictions to control the capital of the Forbin Capital hedge fund',
+    info: 'Build reputation to claim your place on the leaderboard. 1 million USD paid out to data scientists.',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -59,7 +65,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'edouard@forbin-capital.com',
 };
 
 // FOOTER DATA
