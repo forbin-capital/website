@@ -36,7 +36,7 @@ export const projectsData = [
     title: 'Start with hedge fund quality data',
     info: 'It is clean and regularized, designed to be usable right away. Obfuscated, so it can be given out for free.',
     info2: '',
-    url: '',
+    url: 'https://docs.forbin-capital.com/',
     repo: 'https://github.com/forbin-capital', // if no repo, the button will not show up
   },
   {
@@ -46,7 +46,7 @@ export const projectsData = [
     title: 'Apply machine learning to predict the stock market',
     info: 'Build a model using the example Python and R scripts. Everything you need to get started in one package.',
     info2: '',
-    url: '',
+    url: 'https://docs.forbin-capital.com/',
     repo: 'https://github.com/forbin-capital', // if no repo, the button will not show up
   },
   {
@@ -56,7 +56,7 @@ export const projectsData = [
     title: 'Submit your predictions to control the capital of the Forbin Capital hedge fund',
     info: 'Build reputation to claim your place on the leaderboard. 1 million USD paid out to data scientists.',
     info2: '',
-    url: '',
+    url: 'https://docs.forbin-capital.com/',
     repo: 'https://github.com/forbin-capital', // if no repo, the button will not show up
   },
 ];
