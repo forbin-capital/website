@@ -34,7 +34,7 @@ export const projectsData = [
     buttonTitle: 'Download datasets',
     img: 'project-1.png',
     title: 'Start with hedge fund quality data',
-    info: 'It is clean and regularized, designed to be usable right away. Obfuscated, so it can be given out for free.',
+    info: 'It is clean and regularized, designed to be usable right away.',
     info2: '',
     url: 'https://docs.forbin-capital.com/',
     repo: 'https://github.com/forbin-capital', // if no repo, the button will not show up
@@ -44,19 +44,19 @@ export const projectsData = [
     buttonTitle: 'Clone examples',
     img: 'project-2.png',
     title: 'Apply machine learning to predict the stock market',
-    info: 'Build a model using the example Python and R scripts. Everything you need to get started in one package.',
+    info: 'Build a model using the example Python scripts. Everything you need to get started in one package.',
     info2: '',
-    url: 'https://docs.forbin-capital.com/',
+    url: 'https://docs.forbin-capital.com/examples',
     repo: 'https://github.com/forbin-capital', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     buttonTitle: 'Submit predictions',
     img: 'project-3.png',
-    title: 'Submit your predictions to control the capital of the Forbin Capital hedge fund',
-    info: 'Build reputation to claim your place on the leaderboard. 1 million USD paid out to data scientists.',
+    title: 'Submit your predictions to get funding',
+    info: 'Build reputation to claim your place on the leaderboard. Receive 10% of the profit of your strategy forever.',
     info2: '',
-    url: 'https://docs.forbin-capital.com/',
+    url: 'https://docs.forbin-capital.com/#submissions',
     repo: 'https://github.com/forbin-capital', // if no repo, the button will not show up
   },
 ];
