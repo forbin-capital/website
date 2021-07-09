@@ -24,7 +24,7 @@ export const aboutData = {
     'Forbin Capital hosts quantitative trading contests and allocates to winning algorithms.',
   paragraphThree:
     'Each contest includes two phases: the submission period and the live contest period. During the submission period, you can develop systems, check their performance, and make changes to them in your user area. During the live contest period, we will check the performance of the submitted systems and at the end, we will announce the winners.',
-  resume: 'https://www.iasg.com/', // if no resume, the button will not show up
+  resume: 'https://www.iasg.com/en-us/groups/group/forbin-capital/program/forbin', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
