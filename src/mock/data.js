@@ -65,7 +65,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'edouard@forbin-capital.com',
+  email: 'investors@forbin-capital.com',
 };
 
 // FOOTER DATA
