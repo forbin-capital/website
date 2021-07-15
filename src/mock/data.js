@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Break into algorithmic trading and compete for capital',
+  title: 'Break into algorithmic trading and get up to $15000',
   name: 'Forbin Capital',
   subtitle: '',
   cta: '',
@@ -36,28 +36,28 @@ export const projectsData = [
     title: 'Start with hedge fund quality data',
     info: 'It is clean and regularized, designed to be usable right away.',
     info2: '',
-    url: 'https://docs.forbin-capital.com/',
-    repo: 'https://github.com/forbin-capital', // if no repo, the button will not show up
+    url: 'https://docs.forbin-capital.com/user-guide/data',
+    repo: null, // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     buttonTitle: 'Clone examples',
     img: 'project-2.png',
     title: 'Apply machine learning to predict the stock market',
-    info: 'Build a model using the example Python scripts. Everything you need to get started in one package.',
+    info: 'Build a model using the example Python scripts. Everything you need to get started in one script.',
     info2: '',
-    url: 'https://docs.forbin-capital.com/examples',
-    repo: 'https://github.com/forbin-capital', // if no repo, the button will not show up
+    url: 'https://docs.forbin-capital.com/user-guide/code',
+    repo: null, // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     buttonTitle: 'Submit predictions',
     img: 'project-3.png',
-    title: 'Submit your predictions to get funding',
-    info: 'Build reputation to claim your place on the leaderboard. Receive 10% of the profit of your strategy forever.',
+    title: 'Submit your predictions to a money prize',
+    info: 'Build reputation to claim your place on the leaderboard. Receive up to $15000.',
     info2: '',
-    url: 'https://docs.forbin-capital.com/#submissions',
-    repo: 'https://github.com/forbin-capital', // if no repo, the button will not show up
+    url: 'https://docs.forbin-capital.com/user-guide/evaluation',
+    repo: null, // if no repo, the button will not show up
   },
 ];
 
@@ -76,11 +76,6 @@ export const footerData = {
       name: 'twitter',
       url: 'https://twitter.com/forbincapital',
     },
-    // {
-    //   id: nanoid(),
-    //   name: 'codepen',
-    //   url: '',
-    // },
     {
       id: nanoid(),
       name: 'linkedin',
@@ -96,5 +91,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
