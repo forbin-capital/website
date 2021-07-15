@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Break into algorithmic trading and get up to $15000',
+  title: 'Break into algorithmic trading and compete for $15000',
   name: 'Forbin Capital',
   subtitle: '',
   cta: '',
@@ -54,7 +54,7 @@ export const projectsData = [
     buttonTitle: 'Submit predictions',
     img: 'project-3.png',
     title: 'Submit your predictions to a money prize',
-    info: 'Build reputation to claim your place on the leaderboard. Receive up to $15000.',
+    info: 'Build reputation to claim your place on the leaderboard. $15000 money prize.',
     info2: '',
     url: 'https://docs.forbin-capital.com/user-guide/evaluation',
     repo: null, // if no repo, the button will not show up
