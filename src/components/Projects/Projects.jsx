@@ -1,14 +1,13 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
-import PortfolioContext from '../../context/context';
-import Title from '../Title/Title';
+
+import { projectsData } from '../../mock/data';
 import ProjectImg from '../Image/ProjectImg';
+import Title from '../Title/Title';
 
 const Projects = () => {
-  const { projects } = useContext(PortfolioContext);
-
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -27,7 +26,7 @@ const Projects = () => {
       <Container>
         <div className="project-wrapper">
           <Title title="How does it work?" />
-          {projects.map((project) => {
+          {projectsData.map((project) => {
             const { buttonTitle, title, info, info2, url, repo, img, id } = project;
 
             return (
