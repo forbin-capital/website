@@ -5,6 +5,8 @@
 Using NPM:
 
 ```bash
+nvm use 14.0
+
 # Install dependencies
 $ npm install
 
