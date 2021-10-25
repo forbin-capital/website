@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Template developed by{' '}
+          © {new Date().getFullYear()} - By{' '}
           <a href="https://github.com/forbin-capital" target="_blank" rel="noopener noreferrer">
             Forbin Capital
           </a>
